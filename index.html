@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <title>Encriptador Challenge 3</title>
+</head>
+<body>
+    <header>
+                
+    <img src="img/Logo.png" alt="logo alura" class="logo">  
+    <main>
+        <section class="section1">
+            <input type="text" id="textoEncriptado" name="texto" placeholder="Ingrese texto aqui" class="placeholder area">
+            <div class="noMayus">
+                <span><iconify-icon icon="bi:exclamation" style="color: #eb9515;" width="64"></iconify-icon></span>
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            
+            <div class="contenedorBotones">
+                <button type="button" id="botonEncriptado" class="botonEncriptar">Encriptar</button>
+                <button type="button" id="botonDesencriptar" class="botonDesencriptado">Desencriptar</button>
+            </div>    
+                   
+        </section>
+        <section class="section2">
+            
+            <div class="contenedorMunieco desaparecerDos">
+                
+                <img src="img/Muñeco.png" alt="" id="munieco">
+                <h3 >Ningun mensaje fue encontrado</h3>
+                <p>ingresa el texto que deseas encriptar o desencriptar</p>
+                
+            </div>
+            <p id="textoDesencriptado"></p>
+            
+            <button type="button" id="botonCopiar" class="desaparecer btnCopiar">Copiar</button>  
+        </section>         
+    </main>
+    </header>
+    
+    <footer>
+        
+        <p>Alura Latam</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+@media all and (min-width: 320px) and (max-width: 480px) { 
+
+    header img{
+        width: 20%;
+        padding: 0.5rem;
+    }
+
+    main{
+        
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section1{
+        width: 100%;
+        margin: 2rem auto 2rem auto;
+        
+    }
+
+    .area {
+        width: 80%;
+        height: 20vh;
+        margin: auto;
+        padding: 0.5rem;   
+    }
+
+    .contenedorBotones{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .botonEncriptar{
+        width: 60%;
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        margin-right:0% ;
+        
+    }
+
+    .botonDesencriptado{
+        width: 60%;
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-left:0% ;
+    }
+
+    .section2{
+        /* background-color: purple; */
+        width: 90%;
+        margin: 0 auto 3rem auto;
+        height: 60%;
+        
+    }
+
+    .contenedorMunieco img {
+        display: none;
+    }
+
+    #botonCopiar{
+        width: 60%;
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    footer {
+        margin-top: 37%;
+    }
+
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    header img{
+        width: 15%;
+        padding: 0.5rem;
+    }
+
+    main{
+        
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section1{
+        width: 100%;
+        margin: 2rem auto 2rem auto;
+        
+    }
+
+    .area {
+        width: 80%;
+        height: 20vh;
+        margin: auto;
+        padding: 0.5rem;   
+    }
+
+    .contenedorBotones{
+        
+        
+        margin: auto;
+        width: 80%;
+    }
+
+    .botonEncriptar{
+        width: 60%;
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-right:0.5rem ;
+        
+    }
+
+    .botonDesencriptado{
+        width: 60%;
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-left:0.5rem ;
+    }
+
+    .section2{
+        width: 90%;
+        margin: 0 auto 3rem auto;
+        height: 50%;
+        
+    }
+
+    .contenedorMunieco img {
+        display: none;
+    }
+
+    #botonCopiar{
+        width: 40%;
+        font-size: 1rem;
+        padding: 0.8rem;
+
+    }
+
+    footer{
+        margin-top: 5%;
+        
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 990px) {
+    .area{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    
+    .section2{
+        height: 80%;
+        width: 70%;
+        margin: 0 1.5rem 0 auto;
+        
+        
+    } 
+
+    .contenedorBotones{
+        
+        
+        margin: auto;
+        width: 80%;
+    }
+
+    
+    .botonEncriptar{
+        width: 80%;
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-right:0.2rem ;
+        
+        
+    }
+
+    .botonDesencriptado{
+        width: 80%;
+        font-size: 1rem;
+        padding: 0.6rem;
+        margin-left:0.2rem ;
+    }
+
+    #botonCopiar{
+        width: 60%;
+        font-size: 1rem;
+        padding: 0.8rem;
+
+    }
+}

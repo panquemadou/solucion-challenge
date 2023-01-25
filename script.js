@@ -7,7 +7,7 @@ function encriptar() {
     let caracteresEspeciales=/[<>*$&%áéíóúÁÉÍÓÚ]/g;
     let mayusculas= /[A-Z]/;
 
-    if (caracteresEspeciales.test(frase) || mayusculas.test(frase) ) {
+    if (caracteresEspeciales.test(frase) || mayusculas.test(frase) || (frase == "") ) {
         
         document.getElementById("caracteresAcentos").style.color = "red";
     }else {

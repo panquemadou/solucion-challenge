@@ -1,10 +1,13 @@
 
 function encriptar() {
-    let frase = document.getElementById("textoEncriptado").value.toLocaleLowerCase();
+    //let frase = document.getElementById("textoEncriptado").value.toLocaleLowerCase();
     /////////////////
-    let caracteresEspeciales=/[<>*$&%áéíóúÁÉÍÓÚ]/g;
+    let frase = document.getElementById("textoEncriptado").value;
 
-    if (caracteresEspeciales.test(frase)) {
+    let caracteresEspeciales=/[<>*$&%áéíóúÁÉÍÓÚ]/g;
+    let mayusculas= /[A-Z]/;
+
+    if (caracteresEspeciales.test(frase) || mayusculas.test(frase) ) {
         
         document.getElementById("caracteresAcentos").style.color = "red";
     }else {
@@ -49,7 +52,9 @@ function encriptar() {
 }
 
 function desencriptar() {
-    let frase = document.getElementById("textoEncriptado").value.toLocaleLowerCase();
+    //let frase = document.getElementById("textoEncriptado").value.toLocaleLowerCase();
+
+    let frase = document.getElementById("textoEncriptado").value;
 
     let textoEncriptado = frase.replace(/enter/img, "e")
     textoEncriptado = textoEncriptado.replace(/ober/img, "o");
